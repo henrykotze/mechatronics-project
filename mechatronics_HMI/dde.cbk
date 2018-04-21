@@ -1,5 +1,19 @@
 Begin DDE Information.
-    Last DDE Source:	1
+    Last DDE Source:	3
+Begin DDE Source Definition.
+    Source Name:		S7-1200
+    Application Name:		\\mechserv1\server_runtime
+    Topic Name:			Ethernet8_PLC8
+    DDE Source ID:		3
+    Request Initial Data:	1
+    Always Advise:		0
+    SuiteLink:			1
+    Begin DDE Points
+        FAULHABER_POS;0028:  MW2
+        DC_POWER;0026:  MB0.1
+        DC_DIR;0025:  MB0.6
+    End DDE Points
+End DDE Source Definition.
 Begin DDE Source Definition.
     Source Name:		OPC
     Application Name:		\\localhost\FSGateway
@@ -8,6 +22,17 @@ Begin DDE Source Definition.
     Request Initial Data:	1
     Always Advise:		0
     SuiteLink:			1
+    Begin DDE Points
+    End DDE Points
+End DDE Source Definition.
+Begin DDE Source Definition.
+    Source Name:		Galaxy
+    Application Name:		\\NA\NA
+    Topic Name:			NA
+    DDE Source ID:		2
+    Request Initial Data:	1
+    Always Advise:		0
+    SuiteLink:			3
     Begin DDE Points
     End DDE Points
 End DDE Source Definition.
